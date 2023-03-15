@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [heroku-20] updated nginx to 1.20.0
 - [cedar-14] Removed
 - rename master branch to main
+
 ## [1.5.2] - 2021-07-29
 ### Changes
 - [CODEOWNERS] Add ECCN

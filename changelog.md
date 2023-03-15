@@ -4,6 +4,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.9] - 2022-06-21
+### Changes
+- If a Ruby installation is not found (required for the ERB templating feature), this buildpack will now install its own, to ensure it works on Heroku-22.
+
+## [1.8] - 2022-05-19
+### Changes
+- [heroku-18] updated nginx to 1.20.2, bump zlib to 1.2.12, updated PCRE to 8.45
+- [heroku-20] updated nginx to 1.20.2, bump zlib to 1.2.12, updated PCRE to 8.45
+- [heroku-22] add support for Heroku-22
+
+## [1.7] - 2021-06-04
+### Changes
+- [heroku-18] updated nginx to 1.20.1
+- [heroku-20] updated nginx to 1.20.1
+- [heroku-16] Removed
+
+## [1.6] - 2021-05-27
+### Changes
+- [heroku-18] updated nginx to 1.20.0
+- [heroku-20] updated nginx to 1.20.0
+- [cedar-14] Removed
+- rename master branch to main
+
 ## [1.5.2] - 2021-07-29
 ### Changes
 - [CODEOWNERS] Add ECCN

@@ -51,6 +51,7 @@ fi
 (
   cd "nginx-${NGINX_VERSION}"
   ./configure \
+    --with-http_auth_request_module \
     --prefix=/tmp/nginx \
     "${configure_opts[@]}"
   make install
